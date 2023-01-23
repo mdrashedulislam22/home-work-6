@@ -1,0 +1,123 @@
+*{margin:0px;
+padding:0px;
+outline:0px;
+box-sizing:border-box;
+
+
+}
+body{
+    
+    background-image: url(./pic/monitor-1307227__480.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.menu_bar{
+
+    background-color: aquamarine;
+    width:100%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.logo{
+
+    color:black;
+    font-size: 30px;
+}
+.logo span{
+
+    color:blue;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+    
+}
+.menu_bar ul li{
+    padding:10px 30px;
+    
+}
+.menu_bar ul li a{
+
+    color:rgb(253, 20, 51);
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: bold;
+    
+}
+.menu_bar ul li:hover{
+    background-color: black;
+   border-radius: 15px 15px;
+   transition: 0.8s;
+}
+.menu_bar ul li a:hover{
+    color:rgb(213, 236, 7)
+
+
+}
+.fas{
+    float:right;
+    margin-left: 10px;
+    padding: top 3px;
+
+}
+.dropdown_menu{
+    display:block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: rgb(34, 49, 49);
+
+}
+
+
+
+
+.menu_bar ul li a:hover.dropdown_menu{
+
+    display:block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: aqua;
+}
+.menu_bar ul li a:hover .dropdown_menu ul{
+
+    display: block;
+    margin: 10px;
+
+}
+.menu_bar ul li a:hover .dropdown_menu ul li{
+
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float:right;
+    margin-left: 10px;
+    padding: top 3px;
+}
+.menu_bar ul li a:hover .dropdown_menu_1{
+    display:none;
+}
+
+.menu_bar ul li a:hover .dropdown_menu_1{
+    display:block;
+    position: absolute;
+    left:0;
+    top:100%;
+    background-color: rgb(40, 65, 65);
+
+}
+.hero{
+   
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
